@@ -15,7 +15,7 @@
         <title>Responsive Portfolio Website</title>
     </head>
     <body>
-        <!--==================== HEADER ====================-->
+        <!-- HEADER -->
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Alda Mauliza</a>
@@ -38,6 +38,11 @@
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="index.html" class="nav__link">
+                                <i class="fal fa-code nav__icon"></i> Qualification
+                            </a>
+                        </li>
+                        <li class="nav__item">
                             <a href="portofolio.html" class="nav__link">
                                 <i class="fal fa-briefcase nav__icon"></i>
                                 Portfolio
@@ -57,17 +62,20 @@
                     <!-- theme button -->
                     <i class="far fa-moon change-theme" id="theme-button"></i>
                 </div>
+                <div class="nav__toggle" id="nav-toggle">
+                        <i class="far fa-bars nav__icon"></i>
+                    </div>
             </nav>
         </header>
 
- <!--==================== PORTFOLIO ====================-->
+ <!-- PORTFOLIO -->
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent works</span>
 
                 <div class="portfolio__container container swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 1 ====================-->
+                        <!-- PORTFOLIO 1 -->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="img/portfolio1.jpg" alt="" class="portfolio__img" />
 
@@ -86,7 +94,7 @@
                             </div>
                         </div>
 
-                        <!--==================== PORTFOLIO 2 ====================-->
+                        <!-- PORTFOLIO 2 -->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="img/portfolio2.jpg" alt="" class="portfolio__img" />
 
@@ -105,7 +113,7 @@
                             </div>
                         </div>
 
-                        <!--==================== PORTFOLIO 3 ====================-->
+                        <!-- PORTFOLIO 3 -->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="img/portfolio3.jpg" alt="" class="portfolio__img" />
 
@@ -137,7 +145,7 @@
 
         </main>
 
-        <!--==================== FOOTER ====================-->
+        <!-- FOOTER -->
         <span class="section__subtitle"></span>
         <footer class="footer">
             <div class="footer__bg">
@@ -173,7 +181,7 @@
             </div>
         </footer>
 
-            <!--==================== SCRIPT ====================-->
+            <!-- SCRIPT -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="js/script.js"></script>
     </body>
